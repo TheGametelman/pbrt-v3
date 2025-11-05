@@ -118,6 +118,8 @@
 #include <map>
 #include <stdio.h>
 
+#include "integrators/conv.h"
+
 namespace pbrt {
 
 // API Global Variables
@@ -1691,6 +1693,8 @@ Integrator *RenderOptions::MakeIntegrator() const {
         integrator = CreateAOIntegrator(IntegratorParams, sampler, camera);
     } else if (IntegratorName == "sppm") {
         integrator = CreateSPPMIntegrator(IntegratorParams, camera);
+    } else if (IntegratorName == "conv") {
+        integrator = CreateConventionalIntegrator(IntegratorParams, sampler, camera);
     } else {
         Error("Integrator \"%s\" unknown.", IntegratorName.c_str());
         return nullptr;

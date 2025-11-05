@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-4.2/Templates/CPackConfig.cmake.in
+C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/openexr/IlmBase/CMakeLists.txt

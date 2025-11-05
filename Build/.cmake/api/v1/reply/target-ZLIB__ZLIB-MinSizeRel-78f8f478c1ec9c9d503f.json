@@ -1,0 +1,55 @@
+{
+	"abstract" : true,
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include"
+		],
+		"files" : 
+		[
+			"C:/Program Files/CMake/share/cmake-4.2/Modules/FindZLIB.cmake",
+			"src/ext/ptex/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 254,
+				"parent" : 2
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "ZLIB::ZLIB::@80200f22bd5b9a2ef693",
+	"imported" : true,
+	"local" : true,
+	"name" : "ZLIB::ZLIB",
+	"paths" : 
+	{
+		"build" : "src/ext/ptex",
+		"source" : "src/ext/ptex"
+	},
+	"sources" : [],
+	"type" : "UNKNOWN_LIBRARY"
+}

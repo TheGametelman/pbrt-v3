@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13B9B925-BB2C-3C13-8645-D6AADA0B6C27}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3" "-BC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build" --check-stamp-file "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/src/ext/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3" "-BC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build" --check-stamp-file "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/src/ext/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3" "-BC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build" --check-stamp-file "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/src/ext/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3" "-BC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build" --check-stamp-file "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/src/ext/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\ZERO_CHECK.vcxproj">
+      <Project>{6A0A3B14-17DA-352E-8A1B-B2656566BBC0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\Half.vcxproj">
+      <Project>{30739019-800D-3D1A-BA38-12BA19BA2985}</Project>
+      <Name>Half</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\Iex\Iex.vcxproj">
+      <Project>{2497FACF-16F8-3AA4-B75E-7E33AF06ACC9}</Project>
+      <Name>Iex</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\IexMath\IexMath.vcxproj">
+      <Project>{41EE96FA-C14A-39F6-BEDB-16926D306E79}</Project>
+      <Name>IexMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\IlmImf.vcxproj">
+      <Project>{2A02A12C-4276-3A01-8FAD-84D539AEFE04}</Project>
+      <Name>IlmImf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.vcxproj">
+      <Project>{4C7CBDD2-56A8-3198-B6ED-6F5855BE7C07}</Project>
+      <Name>IlmImf-obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\IlmThread\IlmThread.vcxproj">
+      <Project>{46D16D78-ED2F-3E50-B93C-182B33BFAB62}</Project>
+      <Name>IlmThread</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\Imath\Imath.vcxproj">
+      <Project>{5D4BABCB-F6D6-340E-9FEA-B0CCAC5334CA}</Project>
+      <Name>Imath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\b44ExpLogTable.vcxproj">
+      <Project>{2C4A2FDD-88D3-322D-A311-135567D60E44}</Project>
+      <Name>b44ExpLogTable</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\dwaLookups.vcxproj">
+      <Project>{C280C769-8022-38C9-A2AD-369E25160CC2}</Project>
+      <Name>dwaLookups</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\eLut.vcxproj">
+      <Project>{4F0E98DF-782F-35B9-AFDC-43AA5080D911}</Project>
+      <Name>eLut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\toFloat.vcxproj">
+      <Project>{BB295CD3-6969-32A4-8698-181858695BEE}</Project>
+      <Name>toFloat</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

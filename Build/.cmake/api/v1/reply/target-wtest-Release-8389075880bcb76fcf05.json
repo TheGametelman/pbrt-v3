@@ -1,0 +1,271 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/ext/ptex/src/tests/Release/wtest.exe"
+		},
+		{
+			"path" : "src/ext/ptex/src/tests/Release/wtest.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"INCLUDE_DIRECTORIES",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/ext/ptex/src/tests/CMakeLists.txt",
+			"src/ext/ptex/src/ptex/CMakeLists.txt",
+			"src/ext/ptex/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 31,
+				"parent" : 6
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 303,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 319,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 343,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 6
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Ptex_static::@a7b58488bffeb11cd167"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG   /D _CRT_SECURE_NO_WARNINGS -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_HAVE_CONSTEXPR -D PBRT_CONSTEXPR=constexpr -D PBRT_HAVE_ALIGNAS -D PBRT_HAVE_ALIGNOF -D PBRT_HAVE_NONPOD_IN_UNIONS -D PBRT_NOINLINE=__declspec(noinline) -D PBRT_HAVE__ALIGNED_MALLOC -D PBRT_THREAD_LOCAL=thread_local -D GOOGLE_GLOG_DLL_DECL= /D PTEX_STATIC /wd4800 /wd4244"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "PTEX_STATIC"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/zlib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/src/ext/zlib"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/openexr/IlmBase/Imath"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/openexr/IlmBase/Half"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/openexr/IlmBase/Iex"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/src/ext/openexr/IlmBase/config"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/src/ext/openexr/OpenEXR/config"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/glog/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/src/ext/glog"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/src/ext/ptex/src/ptex"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "zlibstatic::@73c077a40ae8d9707783"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Ptex_static::@a7b58488bffeb11cd167"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "ext"
+	},
+	"id" : "wtest::@65d61c7e81293e0e5953",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\ptex\\Release\\Ptex.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\zlib\\Release\\zlibstatic.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Ptex_static::@a7b58488bffeb11cd167"
+		}
+	],
+	"name" : "wtest",
+	"nameOnDisk" : "wtest.exe",
+	"paths" : 
+	{
+		"build" : "src/ext/ptex/src/tests",
+		"source" : "src/ext/ptex/src/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ext/ptex/src/tests/wtest.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

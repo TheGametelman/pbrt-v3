@@ -2,7 +2,7 @@
 # (https://www.slideshare.net/DanielPfeifer1/cmake-48475415) are violated
 # in this file. Would be nice to address some of these.
 
-CMAKE_MINIMUM_REQUIRED ( VERSION 3.1.0 )
+CMAKE_MINIMUM_REQUIRED ( VERSION 3.5.0 )
 
 # For sanitizers
 SET (CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
@@ -447,7 +447,9 @@ SET ( PBRT_CORE_HEADERS
   src/core/stringprint.h
   src/core/texture.h
   src/core/transform.h
-  )
+        src/integrators/conv.cpp
+        src/integrators/conv.h
+)
 
 FILE ( GLOB PBRT_SOURCE
   src/ext/*

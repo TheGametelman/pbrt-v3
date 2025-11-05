@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/ext/glog/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "utilities_unittest::@d6e44c78f4c47f096089"
+		},
+		{
+			"id" : "glog::@d6e44c78f4c47f096089"
+		},
+		{
+			"id" : "logging_unittest::@d6e44c78f4c47f096089"
+		},
+		{
+			"id" : "stl_logging_unittest::@d6e44c78f4c47f096089"
+		},
+		{
+			"id" : "demangle_unittest::@d6e44c78f4c47f096089"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@d6e44c78f4c47f096089",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "utilities_unittest::@d6e44c78f4c47f096089"
+		},
+		{
+			"id" : "glog::@d6e44c78f4c47f096089"
+		},
+		{
+			"id" : "logging_unittest::@d6e44c78f4c47f096089"
+		},
+		{
+			"id" : "stl_logging_unittest::@d6e44c78f4c47f096089"
+		},
+		{
+			"id" : "demangle_unittest::@d6e44c78f4c47f096089"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/ext/glog",
+		"source" : "src/ext/glog"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

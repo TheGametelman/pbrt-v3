@@ -1,0 +1,55 @@
+{
+	"abstract" : true,
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"FIND_PACKAGE"
+		],
+		"files" : 
+		[
+			"C:/Program Files/CMake/share/cmake-4.2/Modules/FindZLIB.cmake",
+			"src/ext/openexr/OpenEXR/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 254,
+				"parent" : 2
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "ZLIB::ZLIB::@e28abeb65395779d9b5c",
+	"imported" : true,
+	"local" : true,
+	"name" : "ZLIB::ZLIB",
+	"paths" : 
+	{
+		"build" : "src/ext/openexr/OpenEXR",
+		"source" : "src/ext/openexr/OpenEXR"
+	},
+	"sources" : [],
+	"type" : "UNKNOWN_LIBRARY"
+}

@@ -1,0 +1,111 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/ext/openexr/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "dwaLookups::@dfce845c588ce6a45822"
+		},
+		{
+			"id" : "IlmImf-obj::@dfce845c588ce6a45822"
+		},
+		{
+			"id" : "IlmImf::@dfce845c588ce6a45822"
+		},
+		{
+			"id" : "b44ExpLogTable::@dfce845c588ce6a45822"
+		},
+		{
+			"id" : "Half::@f1a5a8dbbb666411b166"
+		},
+		{
+			"id" : "IexMath::@2a86a1e583929aa6ebc6"
+		},
+		{
+			"id" : "Iex::@0116349e0908dd0401d8"
+		},
+		{
+			"id" : "toFloat::@f1a5a8dbbb666411b166"
+		},
+		{
+			"id" : "Imath::@62dcb3202aa6ce1ea960"
+		},
+		{
+			"id" : "IlmThread::@c9e64c6c3428d436a6ce"
+		},
+		{
+			"id" : "eLut::@f1a5a8dbbb666411b166"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@216873478ca39ce8b80d",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "dwaLookups::@dfce845c588ce6a45822"
+		},
+		{
+			"id" : "IlmImf-obj::@dfce845c588ce6a45822"
+		},
+		{
+			"id" : "IlmImf::@dfce845c588ce6a45822"
+		},
+		{
+			"id" : "b44ExpLogTable::@dfce845c588ce6a45822"
+		},
+		{
+			"id" : "Half::@f1a5a8dbbb666411b166"
+		},
+		{
+			"id" : "IexMath::@2a86a1e583929aa6ebc6"
+		},
+		{
+			"id" : "Iex::@0116349e0908dd0401d8"
+		},
+		{
+			"id" : "toFloat::@f1a5a8dbbb666411b166"
+		},
+		{
+			"id" : "Imath::@62dcb3202aa6ce1ea960"
+		},
+		{
+			"id" : "IlmThread::@c9e64c6c3428d436a6ce"
+		},
+		{
+			"id" : "eLut::@f1a5a8dbbb666411b166"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/ext/openexr",
+		"source" : "src/ext/openexr"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

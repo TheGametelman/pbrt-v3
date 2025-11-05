@@ -1,0 +1,81 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/ext/ptex/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "halftest::@65d61c7e81293e0e5953"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Ptex_static::@a7b58488bffeb11cd167"
+		},
+		{
+			"id" : "ftest::@65d61c7e81293e0e5953"
+		},
+		{
+			"id" : "ptxinfo::@4c1562ba81c839dfd133"
+		},
+		{
+			"id" : "rtest::@65d61c7e81293e0e5953"
+		},
+		{
+			"id" : "wtest::@65d61c7e81293e0e5953"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@80200f22bd5b9a2ef693",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "halftest::@65d61c7e81293e0e5953"
+		},
+		{
+			"id" : "Ptex_static::@a7b58488bffeb11cd167"
+		},
+		{
+			"id" : "ftest::@65d61c7e81293e0e5953"
+		},
+		{
+			"id" : "ptxinfo::@4c1562ba81c839dfd133"
+		},
+		{
+			"id" : "rtest::@65d61c7e81293e0e5953"
+		},
+		{
+			"id" : "wtest::@65d61c7e81293e0e5953"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/ext/ptex",
+		"source" : "src/ext/ptex"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13B9B925-BB2C-3C13-8645-D6AADA0B6C27}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\config;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\config;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\glog\src;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\glog;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\ptex\src\ptex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\config;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\config;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\glog\src;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\glog;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\ptex\src\ptex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\config;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\config;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\glog\src;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\glog;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\ptex\src\ptex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\zlib;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\config;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\config;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\glog\src;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\glog;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\ext\ptex\src\ptex;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\src\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3" "-BC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build" --check-stamp-file "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeCXXCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindASan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindMSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindSanitizers.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindTSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindUBSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\sanitize-helpers.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3" "-BC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build" --check-stamp-file "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeCXXCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindASan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindMSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindSanitizers.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindTSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindUBSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\sanitize-helpers.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3" "-BC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build" --check-stamp-file "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeCXXCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindASan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindMSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindSanitizers.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindTSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindUBSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\sanitize-helpers.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3" "-BC:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build" --check-stamp-file "C:/Users/mathi/Projekte/Physically Based Rendering/pbrt-v3/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeCXXCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindASan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindMSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindSanitizers.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindTSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\FindUBSan.cmake;C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\cmake\sanitize-helpers.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\ZERO_CHECK.vcxproj">
+      <Project>{6A0A3B14-17DA-352E-8A1B-B2656566BBC0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\Half.vcxproj">
+      <Project>{30739019-800D-3D1A-BA38-12BA19BA2985}</Project>
+      <Name>Half</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\Iex\Iex.vcxproj">
+      <Project>{2497FACF-16F8-3AA4-B75E-7E33AF06ACC9}</Project>
+      <Name>Iex</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\IexMath\IexMath.vcxproj">
+      <Project>{41EE96FA-C14A-39F6-BEDB-16926D306E79}</Project>
+      <Name>IexMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\IlmImf.vcxproj">
+      <Project>{2A02A12C-4276-3A01-8FAD-84D539AEFE04}</Project>
+      <Name>IlmImf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.vcxproj">
+      <Project>{4C7CBDD2-56A8-3198-B6ED-6F5855BE7C07}</Project>
+      <Name>IlmImf-obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\IlmThread\IlmThread.vcxproj">
+      <Project>{46D16D78-ED2F-3E50-B93C-182B33BFAB62}</Project>
+      <Name>IlmThread</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\Imath\Imath.vcxproj">
+      <Project>{5D4BABCB-F6D6-340E-9FEA-B0CCAC5334CA}</Project>
+      <Name>Imath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\ptex\src\ptex\Ptex_static.vcxproj">
+      <Project>{B376267C-E612-3B5E-B2D7-56C3BFA6C0B4}</Project>
+      <Name>Ptex_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\b44ExpLogTable.vcxproj">
+      <Project>{2C4A2FDD-88D3-322D-A311-135567D60E44}</Project>
+      <Name>b44ExpLogTable</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\bsdftest.vcxproj">
+      <Project>{AB1D1772-115E-389F-BA8B-6AC854A0A7E2}</Project>
+      <Name>bsdftest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\cyhair2pbrt.vcxproj">
+      <Project>{D6302A45-F69D-3C14-A86C-E4A87936A928}</Project>
+      <Name>cyhair2pbrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\glog\demangle_unittest.vcxproj">
+      <Project>{8F95EDD0-6A55-3E08-9CEC-CE682EC1AFCD}</Project>
+      <Name>demangle_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\OpenEXR\IlmImf\dwaLookups.vcxproj">
+      <Project>{C280C769-8022-38C9-A2AD-369E25160CC2}</Project>
+      <Name>dwaLookups</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\eLut.vcxproj">
+      <Project>{4F0E98DF-782F-35B9-AFDC-43AA5080D911}</Project>
+      <Name>eLut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\ptex\src\tests\ftest.vcxproj">
+      <Project>{E0463286-DE4D-3C31-97DD-0B0A03210347}</Project>
+      <Name>ftest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\glog\glog.vcxproj">
+      <Project>{6961A75B-47E1-3595-8CA5-B99F93BBEC3C}</Project>
+      <Name>glog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\ptex\src\tests\halftest.vcxproj">
+      <Project>{95281F4C-FB98-3C85-8D10-8CC9F6E2DC00}</Project>
+      <Name>halftest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\imgtool.vcxproj">
+      <Project>{E74FEC42-9475-35D7-AC43-448DC6F4BCB6}</Project>
+      <Name>imgtool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\glog\logging_unittest.vcxproj">
+      <Project>{28CDAB6D-571A-3BF3-A98F-8AC6B2CDA701}</Project>
+      <Name>logging_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\obj2pbrt.vcxproj">
+      <Project>{574238F8-AE5B-37E7-9096-4C3EA775F703}</Project>
+      <Name>obj2pbrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\pbrt.vcxproj">
+      <Project>{326AACA4-C604-3189-B823-89568B912B9B}</Project>
+      <Name>pbrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\pbrt_exe.vcxproj">
+      <Project>{B8BFE045-012E-35F7-BFCE-1BA8E3BB5BDA}</Project>
+      <Name>pbrt_exe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\pbrt_test.vcxproj">
+      <Project>{CDD00683-61A4-3768-8BA1-8D9ECCA4B7AE}</Project>
+      <Name>pbrt_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\ptex\src\utils\ptxinfo.vcxproj">
+      <Project>{9475AAD4-A7FC-385D-87CD-47E5BC5699F8}</Project>
+      <Name>ptxinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\ptex\src\tests\rtest.vcxproj">
+      <Project>{2D6311F2-3E1D-3B20-BAF4-EC35AFA1F578}</Project>
+      <Name>rtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\glog\stl_logging_unittest.vcxproj">
+      <Project>{B879D5DE-0C45-3C07-9E4D-4CAEE24945BE}</Project>
+      <Name>stl_logging_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\openexr\IlmBase\Half\toFloat.vcxproj">
+      <Project>{BB295CD3-6969-32A4-8698-181858695BEE}</Project>
+      <Name>toFloat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\glog\utilities_unittest.vcxproj">
+      <Project>{D382ED08-0C24-34E8-8B84-5DFD077099AF}</Project>
+      <Name>utilities_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\ptex\src\tests\wtest.vcxproj">
+      <Project>{2547180B-F7E9-33E0-97B4-EF1B76EE2BD0}</Project>
+      <Name>wtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\mathi\Projekte\Physically Based Rendering\pbrt-v3\Build\src\ext\zlib\zlibstatic.vcxproj">
+      <Project>{D7F9E117-040A-3133-A475-729C451C3AB7}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
